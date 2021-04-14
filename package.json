@@ -1,0 +1,23 @@
+{
+  "name": "SLRR-Custom-Workshop-Installer-GUI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Onkelz-Freak1993/SLRR-Custom-Workshop-Installer-GUI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Onkelz-Freak1993/SLRR-Custom-Workshop-Installer-GUI/issues"
+  },
+  "homepage": "https://github.com/Onkelz-Freak1993/SLRR-Custom-Workshop-Installer-GUI#readme",
+  "devDependencies": {
+    "electron": "^12.0.4"
+  }
+}

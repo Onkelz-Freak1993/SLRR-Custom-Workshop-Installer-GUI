@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/main.css">
+        <meta http-equiv="Content-Security-Policy"
+        content="script-src 'self' 'unsafe-inline';" />
+        <script defer src="./js/appFunctions.js"></script>
+    </head>
+    <body>
+        <div id="titleBar">
+            <button id="menuBtn" class="topBtn menuBtn"></button>
+            <div id="tb-title">SLRR Custom Workshop Installer</div>
+            <div id="controlBox">
+                <button id="minBtn" class="topBtn minBtn"></button>
+                <button id="maxBtn" class="topBtn maxBtn"></button>
+                <button id="closeBtn" class="topBtn closeBtn"></button>
+            </div>
+        </div>
+        <div id="windowContent">
+            <div id="debugInfo">
+                <b>Currently used versions:</b><br><br>
+                Node.js: <span id="node-version"></span><br>
+                Chromium: <span id="chrome-version"></span><br>
+                Electron: <span id="electron-version"></span><br>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,81 @@
+body{
+	background: #2c313c;
+	color:		#949aa7;
+	-webkit-user-select: none;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.topBtn{
+	-webkit-app-region: none;
+	background-color: rgba(0,0,0,.25);
+	border: none;
+	color: #949aa7;
+	width: 40px;
+	height: 32px;
+	margin: 0 auto;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+button:focus{
+	outline:0;
+}
+#menuBtn{
+	background-image: url("../img/menu.png");
+	float:left;
+}
+#minBtn{
+	background-image: url("../img/minimize.png");
+}
+#maxBtn{
+	background-image: url("../img/maximize.png");
+}
+#closeBtn{
+	background-image: url("../img/close.png");
+}
+.closeBtn:hover{
+	background-color:	red!important;
+}
+.topBtn:hover{
+	background-color:	#4f9fee;
+	color: #ffffff;
+}
+
+#controlBox{
+	position:absolute;
+	top:3px;
+	right:3px;
+}
+#titleBar{
+	min-height: 32px;
+	background-color:	#1b1d23;
+	-webkit-app-region: drag;
+	margin: 0 auto;
+	padding: 3px;
+}
+
+#tb-title{
+	text-align:	center;
+	display:flex;
+	width:80%;
+	display:inline-block;
+	padding: 8px 8px 6px 8px;
+	margin:	0 auto;
+}
+
+#windowContent{
+	padding: 5px;
+}
+
+#debugInfo{
+	text-align:	center;
+	display:	block;
+	background:	#272c36;
+	color:		#4f9fee;
+	margin:		5px;
+	padding:	5px;
+	border:		solid 1px #4f9fee;
+	border-radius: 3px;
+	box-shadow: 0 4px 8px rgba(0,0,0,.75);
+}
